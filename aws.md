@@ -42,4 +42,12 @@ Answer: 20
 
 ![image](https://user-images.githubusercontent.com/21220549/235907906-9154be75-ecbe-40d1-9976-b2bd88c21875.png)
 
+## AWS EC2 Instance Types
+There are hundreds of EC2 instance types with different processors, memory, vCPUs, cores, GPUs and hourly pricing.
+
+![image](https://user-images.githubusercontent.com/21220549/235932121-f7e8fd98-8615-4412-a393-76289adfc875.png)
+
+The EC2 instances can be general purpose, Memory optimized, CPU optimized and storage optimized etc.
+
+![image](https://user-images.githubusercontent.com/21220549/235931475-f20fac73-1bd3-4d60-9803-c4d56e922259.png)
 
