@@ -23,3 +23,23 @@ We can use the global search option to see the instances, VPCs and security grou
 We can search our resources in the following way. Just keep in mind, we'll get a full detailed page for EC2 instances regardless of their state either stopped or running.
 
 ![image](https://user-images.githubusercontent.com/21220549/235871233-2c8f50da-598d-4f35-9ba6-653d36475b0a.png)
+
+### What are AWS Events?
+
+Any scheduled activities regarding EC2 or any other resources in a specific region are known as events. Like for instance, server reboots, node/hardware migration etc.
+
+![image](https://user-images.githubusercontent.com/21220549/235906091-9a6fd0c2-9ab1-473a-9d74-d6b369312be8.png)
+
+### What are AWS Limits?
+
+Limits are imposed to protect your account from malicious activities. It also protects your account from getting over-billed. You can see all the limits for your compute resources in the Limits section as shown below:
+
+![image](https://user-images.githubusercontent.com/21220549/235908119-da0fcc4e-58f2-4ef2-ad38-dc86d433f06a.png)
+
+### How many instances we can launch in a single region?
+
+Answer: 20
+
+![image](https://user-images.githubusercontent.com/21220549/235907906-9154be75-ecbe-40d1-9976-b2bd88c21875.png)
+
+
