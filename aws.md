@@ -53,4 +53,29 @@ The EC2 instances can be general purpose, Memory optimized, CPU optimized and st
 
 ## Launch Templates
 
+1. Launch templates are predefined configurations to create a number of EC2 instances in one go. 
+2. You can share the launch tempates with your team to create instances instead of sharing lots of information. 
+3. Just share the template and it'd be pretty straightforward to create the instances. 
+4. AWS also strongly recommends to use the Launch templates instead of Launch Configurations for creating EC2 instances or Auto-scaling groups.
 
+![image](https://user-images.githubusercontent.com/21220549/236186946-96de6450-8e07-468e-b5b2-d68c3893008e.png)
+
+Let's suppose we want to use Ubuntu 22.04 in our EC2 instances, select as shown in the image:
+
+![image](https://user-images.githubusercontent.com/21220549/236187111-135fd76c-714b-432c-a158-ef4bfdd5c1d0.png)
+
+In the next step, please specify the instance type and the key pair that will be associated with the EC2 instances.
+
+![image](https://user-images.githubusercontent.com/21220549/236187572-486019c2-b7da-4931-b496-43eccab91ceb.png)
+
+If you want to add a public/private subnet automatically to the launch template and a security group, you can do it in the following way:
+
+![image](https://user-images.githubusercontent.com/21220549/236188012-226e5bc3-dcd3-4b1f-8a8e-f9837c2c8153.png)
+
+For storage volumes:
+
+![image](https://user-images.githubusercontent.com/21220549/236188151-3b72fd0b-8e3f-4f49-adf9-931db4ac182e.png)
+
+The launch template has been created successfully:
+
+![image](https://user-images.githubusercontent.com/21220549/236188308-235df6a8-b38c-40ad-b49d-527613b4b484.png)
