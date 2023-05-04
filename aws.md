@@ -79,3 +79,13 @@ For storage volumes:
 The launch template has been created successfully:
 
 ![image](https://user-images.githubusercontent.com/21220549/236188308-235df6a8-b38c-40ad-b49d-527613b4b484.png)
+
+## Launch Instance from a Launch Template
+
+In this step, we'll see how we can launch an EC2 instance with a launch template.
+
+![image](https://user-images.githubusercontent.com/21220549/236188659-bd643545-6da5-42e0-8c5f-b91650244890.png)
+
+Press the Launch instance button and it will create an EC2 instance with our desired configuration according to the launch template version 1.0
+
+![image](https://user-images.githubusercontent.com/21220549/236189017-60a7d204-8e45-4aa3-9ca5-523fd724a70d.png)
