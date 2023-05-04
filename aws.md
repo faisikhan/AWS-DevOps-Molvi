@@ -89,3 +89,28 @@ In this step, we'll see how we can launch an EC2 instance with a launch template
 Press the Launch instance button and it will create an EC2 instance with our desired configuration according to the launch template version 1.0
 
 ![image](https://user-images.githubusercontent.com/21220549/236189017-60a7d204-8e45-4aa3-9ca5-523fd724a70d.png)
+
+If we delete a launch template, all of its versions will be deleted. Whereas, we can delete a specific version of the launch template as well.
+
+## EC2 Spot Instances
+
+These are cheaper instances as compared to the on-demand instances, you can get a discount upto 90% because those are AWS spare instances.
+
+## Savings Plan
+
+You get discounted compute resources for 1-3 years term agreement.
+
+## Scheduled Instances
+
+These are also reserved instances that start and stop automatically according to the application needs and prior time setting.
+
+## AMIs [Amazong Machine Images]
+
+![image](https://user-images.githubusercontent.com/21220549/236218047-044b1ceb-5ade-4d7a-90dc-fb332d01e6a7.png)
+
+## Elastic Block Store [EBS Volumes]
+
+
+
+
+
