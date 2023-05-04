@@ -51,3 +51,6 @@ The EC2 instances can be general purpose, Memory optimized, CPU optimized and st
 
 ![image](https://user-images.githubusercontent.com/21220549/235931475-f20fac73-1bd3-4d60-9803-c4d56e922259.png)
 
+## Launch Templates
+
+
