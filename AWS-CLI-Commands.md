@@ -18,4 +18,11 @@
 
 `aws ec2 terminate-instances --instance-id i-01cf9c4be69b7a9b3` ==> It will terminate the EC2 instance with the given Instance ID.
 
-`
+`aws ec2 describe-regions --output table` ==> Shows enabled regions in my AWS account in a table format.
+
+`aws ec2 describe-regions --query "Regions[*].RegionName" --output table` ==> Almost the same command as above.
+
+`aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-*-22.04-amd64-server-*" "Name=state,Values=available" --query "Images | sort_by(@, &CreationDate)[-1].[ImageId,Name]" --output table --region us-east-1` ==> It will give us the AMI ID.
+
+
+
