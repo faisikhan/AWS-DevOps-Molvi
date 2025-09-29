@@ -24,5 +24,12 @@
 
 `aws ec2 describe-images --owners 099720109477 --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-*-22.04-amd64-server-*" "Name=state,Values=available" --query "Images | sort_by(@, &CreationDate)[-1].[ImageId,Name]" --output table --region us-east-1` ==> It will give us the AMI ID.
 
+`aws ec2 describe-security-groups --query "SecurityGroups[*].[GroupId,GroupName]" --output table --region us-east-1` ==> It will give us the Security Group ID.
+
+`aws ec2 describe-subnets --query "Subnets[*].[SubnetId,AvailabilityZone]" --output table --region us-east-1` ==> It will give us the subnet info.
+
+
+
+
 
 
