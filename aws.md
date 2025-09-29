@@ -107,5 +107,3 @@ These are also reserved instances that start and stop automatically according to
 ## AMIs [Amazong Machine Images]
 
 ![image](https://user-images.githubusercontent.com/21220549/236218047-044b1ceb-5ade-4d7a-90dc-fb332d01e6a7.png)
-
-## Elastic Block Store [EBS Volumes]
