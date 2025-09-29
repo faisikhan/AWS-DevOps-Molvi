@@ -28,7 +28,7 @@
 
 `aws ec2 describe-subnets --query "Subnets[*].[SubnetId,AvailabilityZone]" --output table --region us-east-1` ==> It will give us the subnet info.
 
-
+`aws ec2 run-instances --image-id ami-0360c520857e3138f --count 1 --instance-type t2.micro --key-name devopsmolvikeys --security-group-ids sg-028ee1a7c88103f43 --subnet-id subnet-0c7786f7d52f851b7 --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=wordpress-vm}]' --region us-east-1` ==> It will launch our VM.
 
 
 
