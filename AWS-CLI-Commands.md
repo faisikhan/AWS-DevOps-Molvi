@@ -2,6 +2,10 @@
 
 # AWS IAM Commands
 
+`aws help` ==> Gives info about various AWS CLI Commands.
+
+`aws configure` ==> Setup AWS Credentials
+
 `aws iam list-users` ==> It will list all AWS IAM users.
 
 `aws iam list-policies` ==> List all policies.
@@ -10,20 +14,21 @@
 
 `aws iam list-roles` ==> List all IAM roles.
 
-`aws iam create-user --user-name david-devops` ==> It will create a new user "david-devops".
+`aws iam create-user --user-name david-devops` ==> It will create a new user david-devops.
 
-`aws iam get-user --user-name david-devops` ==> It will share the details of IAM user "david-devops".
+`aws iam get-user --user-name david-devops` ==> It will share the details of IAM user david-devops.
 
-`aws iam create-group --group-name devops-interns` ==> It will create a new group "devops-interns".
+`aws iam create-group --group-name devops-interns` ==> It will create a new group devops-interns.
 
 `aws iam add-user-to-group --user-name david-devops --group-name devops-interns` ==> It will add david-devops user in devops-interns group.
 
-
-`aws help` ==> Gives info about various AWS CLI Commands.
-
-`aws configure` ==> Setup AWS Credentials
-
 `aws sts get-caller-identity` ==> AWS STS stands for AWS Security Token Service & used to access AWS resources.
+
+`aws iam delete-user --user-name david-devops` ==> It will delete the user david-devops.
+
+`aws iam delete-group --group-name devops-interns` ==> It will delete the group devops-interns.
+
+# AWS EC2 Commands
 
 `aws ec2 describe-instances` ==> It will list all AWS EC2 instances
 
