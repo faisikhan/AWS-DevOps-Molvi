@@ -1,5 +1,24 @@
 # Most Frequently used AWS CLI Commands
 
+# AWS IAM Commands
+
+`aws iam list-users` ==> It will list all AWS IAM users.
+
+`aws iam list-policies` ==> List all policies.
+
+`aws iam list-policies --scope AWS` ==> List all policies managed by AWS.
+
+`aws iam list-roles` ==> List all IAM roles.
+
+`aws iam create-user --user-name david-devops` ==> It will create a new user "david-devops".
+
+`aws iam get-user --user-name david-devops` ==> It will share the details of IAM user "david-devops".
+
+`aws iam create-group --group-name devops-interns` ==> It will create a new group "devops-interns".
+
+`aws iam add-user-to-group --user-name david-devops --group-name devops-interns` ==> It will add david-devops user in devops-interns group.
+
+
 `aws help` ==> Gives info about various AWS CLI Commands.
 
 `aws configure` ==> Setup AWS Credentials
